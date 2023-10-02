@@ -75,7 +75,13 @@ function NarBar() {
                     <p>Mon-Fri</p>
                   </div>
                 </div>
-                <button className={styles.qoute_btn}> Get a Quote</button>
+                <button
+                  onClick={() => scrollTo("consultationSection")}
+                  className={styles.qoute_btn}
+                >
+                  {" "}
+                  Get a Quote
+                </button>
               </div>
             </div>
           )}
@@ -119,7 +125,12 @@ function NarBar() {
               <p>Mon-Fri</p>
             </div>
           </div>
-          <button className={styles.qoute_btn}>Get a Qoute</button>
+          <button
+            onClick={() => scrollTo("consultationSection")}
+            className={styles.qoute_btn}
+          >
+            Get a Qoute
+          </button>
         </div>
       </Container>
       <div className={styles.navbar_container}>

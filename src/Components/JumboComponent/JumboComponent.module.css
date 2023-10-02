@@ -7,9 +7,9 @@
       from(rgba(0, 0, 0, 0.7)),
       to(rgba(0, 0, 0, 0.5))
     ),
-    url("../../../public/jumbo.jpg");
+    url("./jumbo.jpg");
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
-    url("../../../public/jumbo.jpg");
+    url("./jumbo.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
     url("./jumbo.jpg");
   background-size: cover;
